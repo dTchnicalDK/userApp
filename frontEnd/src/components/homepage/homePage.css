@@ -1,0 +1,27 @@
+.userTable thead {
+  background-color: blue;
+  color: white;
+  margin: auto;
+}
+td,
+th {
+  padding: 5px;
+  text-align: center;
+}
+tbody tr:nth-child(odd) {
+  background-color: rgb(207, 235, 235);
+  color: blue;
+}
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  border: 1px solid blue;
+  border-collapse: collapse;
+}
+caption {
+  font-weight: 800;
+  color: green;
+}
